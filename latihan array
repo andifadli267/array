@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int nilai[5];
+int n, hasil;
+int main(){
+  for(int n=0;n<5;n++)
+    {
+      cout<<"Masukkan nilai ke-"<<(n+1)<<" : ";
+      cin>>nilai[n];
+    }
+    cout<<endl;
+  for(int n=0;n<5;n++)
+    {
+      hasil+=nilai[n];
+      cout<<"Hasil ke-"<<(n+1)<<" adalah : "<<hasil<<endl;
+    }
+  cout<<endl<<"Jumlah seluruh nilai : "<<hasil<<endl;
+  return 0;
+}
